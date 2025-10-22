@@ -1,0 +1,18 @@
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL */
+
+/* Project utilities */
+.hero-clip {
+	clip-path: polygon(0 100%, 100% 100%, 100% 0);
+}
+.map-iframe {
+	border: 0;
+}
+.w-10p { width: 10%; }
+.w-25p { width: 25%; }
+.w-50p { width: 50%; }
+.w-75p { width: 75%; }
+.w-100p { width: 100%; }
