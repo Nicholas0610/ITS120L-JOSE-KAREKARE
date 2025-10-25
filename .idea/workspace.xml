@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f237c87-a57b-4500-96b0-237c33720f70" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/470201380_122126291132423180_6165366624816461951_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/489862575_122140821638423180_6935283752305353880_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Bulalo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderConfirmation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChatBot.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CookieConsent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FeaturedItems.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProtectedRoute.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/QuickAccess.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/AuthContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/AuthContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AddOrder.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AdminDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Checkout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CustomerDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DeliveryDashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FAQ.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FileComplaint.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Help.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OrderConfirmation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OrderDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OrdersList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Payment.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Privacy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Terms.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/UserProfile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Felicity0512&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Felicity0512/Digitizing-Local-Cuisine-AI-Based-food-ordering-platform-for-Jose-s-Kare-kare-and-Bulalo-House.git&quot;,
+    &quot;accountId&quot;: &quot;6c8907ed-8158-4100-87df-497afa531769&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3434ZFCwB1DthK8P4gJzfi38YCM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/felic/IdeaProjects/AI-based project"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f237c87-a57b-4500-96b0-237c33720f70" name="Changes" comment="" />
+      <created>1760428974650</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760428974650</updated>
+    </task>
+    <servers />
+  </component>
+</project>

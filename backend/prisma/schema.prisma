@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String      @id @default(uuid())
+  name          String
+  email         String      @unique
+  createdAt     DateTime    @default(now())
+  userType      String      @default("customer")
+  contactNumber String?
+  orders        Order[]
+  complaints    Complaint[]
+}
+
+model MenuItem {
+  id          Int         @id @default(autoincrement())
+  name        String
+  description String?
+  price       Float
+  image       String
+  category    String
+  status      String      @default("Available")
+  orderItems  OrderItem[] // ← back-relation for OrderItem.menuItem
+}
+
+model Order {
+  id         String      @id @default(uuid())
+  createdAt  DateTime    @default(now())
+  status     String
+  total      Float
+  customer   User?       @relation(fields: [customerId], references: [id])
+  customerId String?
+  items      OrderItem[]
+}
+
+model OrderItem {
+  id         Int      @id @default(autoincrement())
+  order      Order    @relation(fields: [orderId], references: [id])
+  orderId    String
+  menuItem   MenuItem @relation(fields: [menuItemId], references: [id])
+  menuItemId Int
+  quantity   Int
+  price      Float
+}
+
+model Complaint {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  issue     String
+  details   String?
+  status    String
+  user      User?    @relation(fields: [userId], references: [id])
+  userId    String?
+}
+
+model Promotion {
+  id          Int    @id @default(autoincrement())
+  code        String @unique
+  description String
+  type        String
+  value       Float
+  usageLimit  String
+  status      String
+}
+
+model FlaggedAccount {
+  id         Int    @id @default(autoincrement())
+  email      String
+  reason     String
+  orderCount Int
+  promoUsage String
+  status     String
+}
